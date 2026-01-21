@@ -9,8 +9,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 # LOAD MODELS
 # ==============================
 
-kmeans = joblib.load("../models/kmeans.pkl")
-scaler = joblib.load("../models/scaler.pkl")
+kmeans = joblib.load("models/kmeans.pkl")
+scaler = joblib.load("models/scaler.pkl")
 
 # ==============================
 # BUILD SIMILARITY MATRIX (DYNAMIC)
@@ -232,3 +232,4 @@ elif menu == "Product Recommendation":
 
 st.markdown("---")
 st.markdown("🚀 Developed as part of **Shopper Spectrum ML Project** | End-to-End Machine Learning System")
+
